@@ -1,11 +1,11 @@
 import "./App.css";
-import EventsClass from "./components/EventsClass.js";
-import EventsFunctional from "./components/EventsFunctional.js";
+import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
+import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 
 function App() {
   return <div className="App">
-      <EventsFunctional />
-      <EventsClass />
+      <ConditionalRenderingFunctional connected={false} />
+      <ConditionalRenderingClass />
   </div>;
 }
 
