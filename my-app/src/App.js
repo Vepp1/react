@@ -1,10 +1,9 @@
 import "./App.css";
-import MethodsAsPropsChild from "./components/MethodsAsPropsChild";
-import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+import Clock from "./components/Clock";
 
 function App() {
   return <div className="App">
-      <MethodsAsPropsParent />
+      <Clock />
   </div>;
 }
 
